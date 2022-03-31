@@ -5,7 +5,7 @@ import { Table } from 'react-bootstrap';
 const UsersTable = (props) => {
   const { users } = props;
   return (
-    <Table striped bordered style={{ width:'900px' }} >
+    <Table striped bordered style={{ width:'900px' ,marginLeft:'100px'}} >
       <thead style={{ backgroundColor: 'blue'  ,textAlign: 'center',color:'white' }}>
         <tr>
           <th>Id</th>

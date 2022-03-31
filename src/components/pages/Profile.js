@@ -28,12 +28,12 @@ const Profile = () => {
               src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
             />
             <Card.Body>
-              <Card.Title>{user.username}</Card.Title>
+              <Card.Title>{user.name}</Card.Title>
               <Card.Text>Information of user</Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">
-              <ListGroupItem>{user.name}</ListGroupItem>
               <ListGroupItem>{user.email}</ListGroupItem>
+              <ListGroupItem>{user.phone}</ListGroupItem>
             </ListGroup>
           </Card>{' '}
         </Container>
